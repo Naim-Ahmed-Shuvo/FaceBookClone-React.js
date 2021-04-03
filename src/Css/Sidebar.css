@@ -1,0 +1,8 @@
+.sidebar {
+  padding: 25px 10px;
+  flex: 1;
+  position: fixed;
+  top: 56px;  
+  z-index: 99;
+  background-color: #F1F2F5;
+}

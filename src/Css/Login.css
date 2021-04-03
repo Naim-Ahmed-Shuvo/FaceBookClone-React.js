@@ -1,0 +1,29 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login__logo>img{
+    object-fit: contain;
+    height: 50px;
+}
+.login__logo>img[alt="fb_log"]{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.login__logo{
+  display: flex;
+  flex-direction: column;
+}
+.login>button{
+    background-color: rgb(81, 81, 221);
+    position: relative;
+    top: -158px;
+    bottom: 0;
+    width: 271px;
+    color: aliceblue;
+}
+.login>button:hover{
+    color: blue;
+}
